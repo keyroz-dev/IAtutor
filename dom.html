@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - IA Tutor de Inglês</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .dom-tree {
+            font-family: monospace;
+            margin: 20px;
+            line-height: 1.8;
+        }
+        .dom-element {
+            margin-left: 20px;
+        }
+        .dom-attribute {
+            margin-left: 40px;
+            color: #4CAF50;
+            font-style: italic;
+        }
+        .dom-comment {
+            color: #888;
+            font-style: italic;
+        }
+        .dom-container {
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <h1>Estrutura DOM - IA Tutor de Inglês</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Voltar para o Site</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dom-container">
+        <div class="dom-tree">
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html lang="pt-BR"&gt;<br>
+            <div class="dom-element">
+                &lt;head&gt;<br>
+                <div class="dom-attribute">
+                    &lt;meta charset="UTF-8"&gt;<br>
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                    &lt;title&gt;IA Tutor de Inglês&lt;/title&gt;<br>
+                    &lt;link rel="stylesheet" href="styles/style.css"&gt;<br>
+                    &lt;link rel="icon" href="images/favicon.ico"&gt;<br>
+                </div>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                <div class="dom-element">
+                    &lt;header class="main-header"&gt;<br>
+                    <div class="dom-attribute">
+                        &lt;div class="logo"&gt;...&lt;/div&gt;<br>
+                        &lt;nav class="main-nav"&gt;...&lt;/nav&gt;<br>
+                    </div>
+                    &lt;/header&gt;<br>
+                    
+                    &lt;div class="container"&gt;<br>
+                    <div class="dom-attribute">
+                        &lt;main class="main-content"&gt;<br>
+                        <div class="dom-element">
+                            &lt;section id="sobre"&gt;...&lt;/section&gt;<br>
+                            &lt;section id="objetivos"&gt;...&lt;/section&gt;<br>
+                            &lt;section id="disciplina"&gt;...&lt;/section&gt;<br>
+                            &lt;section id="recursos"&gt;...&lt;/section&gt;<br>
+                        </div>
+                        &lt;/main&gt;<br>
+                        
+                        &lt;aside class="sidebar"&gt;<br>
+                        <div class="dom-attribute">
+                            &lt;div class="sidebar-section"&gt;...&lt;/div&gt;<br>
+                            &lt;div class="sidebar-section"&gt;...&lt;/div&gt;<br>
+                            &lt;div class="sidebar-section"&gt;...&lt;/div&gt;<br>
+                        </div>
+                        &lt;/aside&gt;<br>
+                    </div>
+                    &lt;/div&gt;<br>
+                    
+                    &lt;footer class="main-footer"&gt;<br>
+                    <div class="dom-attribute">
+                        &lt;address&gt;...&lt;/address&gt;<br>
+                        &lt;div class="useful-links"&gt;...&lt;/div&gt;<br>
+                        &lt;div class="social-media"&gt;...&lt;/div&gt;<br>
+                        &lt;div class="copyright"&gt;...&lt;/div&gt;<br>
+                    </div>
+                    &lt;/footer&gt;<br>
+                </div>
+                &lt;/body&gt;<br>
+            </div>
+            &lt;/html&gt;<br>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2023 IA Tutor de Inglês - Estrutura DOM</p>
+    </footer>
+</body>
+</html>
