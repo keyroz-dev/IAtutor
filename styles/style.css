@@ -284,3 +284,12 @@ a:hover {
         position: static;
     }
 }
+
+.main-nav a.active {
+    border-bottom: 2px solid #0077cc;
+    font-weight: bold;
+}
+
+#back-to-top:hover {
+    background-color: #555;
+}
